@@ -1,0 +1,1 @@
+docker run -d -p 5672:5672 -p 15672:15672 -e RABBITMQ_PASS="novioleo" -v /home/novio/projects/Docker/rabbitmq:/var/lib/rabbitmq -v /home/novio/projects/Docker/rabbitmq:/var/log/rabbitmq --name rabbitmq --restart always tutum/rabbitmq
